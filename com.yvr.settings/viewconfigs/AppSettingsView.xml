@@ -1,0 +1,8 @@
+<View>
+    <SettingsItemBox enabled="true" id="appPermission_box" title="{l10n: Text_Permission}">
+        <EntryPreference enabled="true" id="appPermissionManagement_entry" title="{l10n: Title_PermissionManagement}"
+                         link="yvrsettings://settingsview/YVR.Settings.AppPermissionManagementView"/>
+        <EntryPreference enabled="true" id="appLaunchManagement_entry" title="{l10n: Title_AppLaunchManagement}"
+                         link="yvrsettings://settingsview/YVR.Settings.AppLaunchManagementView"/>
+    </SettingsItemBox>
+</View>

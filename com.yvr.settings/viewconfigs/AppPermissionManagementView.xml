@@ -1,0 +1,38 @@
+<View>
+    <SettingsItemBox enabled="true" id="spatialInfoPermission_Box" title="{l10n: Text_SpatialInformation}">
+        <EntryPreference enabled="true" id="spatialDataPermission_entry" title="{l10n: Text_SpatialData}"
+                         desc="{l10n: Desc_SpatialDataPermission}"
+                         link="yvrsettings://settingsview/YVR.Settings.SpatialDataPermissionSettingsView"/>
+    </SettingsItemBox>
+
+    <Spacing vertical="38"/>
+
+    <SettingsItemBox enabled="true" id="deviceUsagePermission_Box" title="{l10n: Text_DeviceUsage}">
+        <EntryPreference enabled="true" id="microphonePermission_entry" title="{l10n: Text_Microphone}"
+                         desc="{l10n: Desc_MicrophonePermission}"
+                         icon="microphonePermission"
+                         link="yvrsettings://settingsview/YVR.Settings.MicrophonePermissionSettingsView"/>
+        <EntryPreference enabled="true" id="locationPermission_entry" title="{l10n: Text_Location}"
+                         desc="{l10n: Desc_LocationPermission}"
+                         icon="locationPermission"
+                         link="yvrsettings://settingsview/YVR.Settings.LocationPermissionSettingsView"/>
+        <EntryPreference enabled="true" id="storagePermission_entry" title="{l10n: Text_Storage}"
+                         desc="{l10n: Desc_StoragePermission}"
+                         icon="storagePermission"
+                         link="yvrsettings://settingsview/YVR.Settings.StoragePermissionSettingsView"/>
+    </SettingsItemBox>
+</View>
+
+        <!--<SettingsItemBox enabled="true" id="personalInfoPermission_Box" title="{l10n: Text_PersonalInformation}">-->
+        <!--<EntryPreference enabled="true" id="eyeTrackingPermission_entry" title="{l10n: Text_EyeTracking}"-->
+        <!--                 desc="{l10n: Desc_EyeTrackingPermission}"-->
+        <!--                 icon="eyeTrackingPermission"-->
+        <!--                 link="yvrsettings://settingsview/YVR.Settings.EyeTrackingPermissionSettingsView"/>-->
+        <!--<EntryPreference enabled="true" id="handTrackingPermission_entry" title="{l10n: Text_HandTracking}"-->
+        <!--                 desc="{l10n: Desc_HandTrackingPermission}"-->
+        <!--                 icon="handTrackingPermission"-->
+        <!--                 link="yvrsettings://settingsview/YVR.Settings.HandTrackingPermissionSettingsView"/>-->
+        <!--</SettingsItemBox>-->
+
+        <!--<Spacing vertical="38"/>-->
+        <!-- -->    

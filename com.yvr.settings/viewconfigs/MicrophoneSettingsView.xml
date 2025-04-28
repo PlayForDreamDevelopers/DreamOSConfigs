@@ -1,0 +1,11 @@
+<View>
+    <SwitchPreference enabled="true" id="mic_switch" title="{l10n: Title_Microphone}"/>
+
+    <Spacing vertical="38"/>
+
+    <RadioButtonGroupPreference enabled="false" id="micInput_radioButtonGroup">
+        <CheckRadioButton enabled="true" title="{l10n: Title_BuiltInMicrophone}" detail="{l10n: Title_BuiltIn}"/>
+        <CheckRadioButton enabled="true" title="{l10n: Title_ExternalMicrophone}"
+                          detail="{l10n: Title_MicrophonePort}"/>
+    </RadioButtonGroupPreference>
+</View>

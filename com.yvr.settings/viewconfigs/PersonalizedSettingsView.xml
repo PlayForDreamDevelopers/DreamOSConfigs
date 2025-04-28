@@ -1,0 +1,11 @@
+<View>
+    <SortableListPreference enabled="false" id="includedControls_sortablelist"
+                            title="{l10n: Title_ControlCenterSettings}">
+    </SortableListPreference>
+
+    <Spacing vertical="38"/>
+
+    <SortableListPreference enabled="false" id="moreControls_sortablelist"
+                            title="{l10n: Title_ControlCenterMoreSettings}">
+    </SortableListPreference>
+</View>

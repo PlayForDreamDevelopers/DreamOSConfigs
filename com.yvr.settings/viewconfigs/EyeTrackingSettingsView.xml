@@ -1,0 +1,20 @@
+<View>
+    <SwitchPreference enabled="true" id="eyeTracking_switch" title="{l10n: Title_EyeTrackingSwitch}"/>
+
+    <Spacing vertical="38"/>
+
+    <SettingsItemBox enabled="true" id="eyeTrackingSettings_box">
+        <SwitchPreference enabled="false" id="eyeTrackingInput_switch" title="{l10n: Title_EyeTrackingInputSwitch}"
+                          desc="{l10n: Description_EyeTrackingInputSwitch}"/>
+
+        <SwitchPreference enabled="false" id="eyeTrackingFilter_switch" title="{l10n: Title_EyeTrackingFilterSwitch}"
+                          desc="{l10n: Description_EyeTrackingFilterSwitch}"/>
+
+        <SwitchPreference enabled="false" id="eyeTrackingCursor_switch" title="{l10n: Title_EyeTrackingCursorSwitch}"
+                          desc="{l10n: Description_EyeTrackingCursorSwitch}"/>
+    </SettingsItemBox>
+</View>
+
+<!--<SwitchPreference enabled="false" id="eyeTrackingFoveatedRendering_switch"-->
+<!--                  title="{l10n: Title_EyeTrackingFoveatedRenderingSwitch}"-->
+<!--                  desc="{l10n: Description_EyeTrackingFoveatedRenderingSwitch}"/>-->

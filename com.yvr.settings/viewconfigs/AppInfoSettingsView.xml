@@ -1,0 +1,9 @@
+<View>
+</View>
+<!--<EntryPreference enabled="true" id="appInfoViewCleanAppDataAction_entry" icon="cleanAppData" title="{l10n: Text_CleanAppData}"-->
+<!--                 link="yvrsettings://settingsview/YVR.Settings.GeneralSettingsView"/>-->
+
+<!--<Spacing vertical="20"/>-->
+
+<!--<EntryPreference enabled="true" id="appInfoViewUninstallAppAction_entry" icon="uninstallApp" title="{l10n: Text_UninstallApp}"-->
+<!--                 link="yvrsettings://settingsview/YVR.Settings.GeneralSettingsView"/>-->

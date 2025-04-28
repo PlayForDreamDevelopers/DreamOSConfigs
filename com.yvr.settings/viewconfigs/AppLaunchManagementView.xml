@@ -1,0 +1,5 @@
+<View>
+    <AdmonitionPreference enabled="true" id="appKeepAlive_admonition" icon="appBackground"
+                          title="{l10n:Title_AppKeepAliveAdmonition}"
+                          desc="{l10n:Desc_AppKeepAliveAdmonition}"/>
+</View>

@@ -1,0 +1,30 @@
+<View>
+    <HMDSettingsEntryPreferenceSO enabled="true" id="hmdSettings_entry"
+                                  link="yvrsettings://settingsview/YVR.Settings.HMDSettingsView"/>
+
+    <Spacing vertical="38"/>
+
+    <EntryPreference enabled="true" id="eyeCalibration_entry" height="183"
+                     title="{l10n: Interaction_EyeCalibrationTitle}" desc="{l10n: Interaction_EyeCalibrationDesc}"
+                     link="yvrsettings://settingsaction/openApp?{&quot;pkg&quot;:&quot;com.yvr.eyecalibration&quot;}"/>
+
+    <Spacing vertical="38"/>
+
+    <SettingsItemBox enabled="true" id="interactionSettings_box">
+        <EntryPreference enabled="true" id="ipdSettings_entry" title="{l10n: Title_IPDSettings}"
+                         link="yvrsettings://settingsview/YVR.Settings.IPDSettingsView"/>
+        <EntryPreference enabled="true" id="eyeTrackingSettings_entry" title="{l10n: Title_EyeTrackingSettings}"
+                         link="yvrsettings://settingsview/YVR.Settings.EyeTrackingSettingsView"/>
+        <EntryPreference enabled="true" id="handTrackingSettings_entry" title="{l10n: Title_HandTrackingSettings}"
+                         link="yvrsettings://settingsview/YVR.Settings.HandTrackingSettingsView"/>
+    </SettingsItemBox>
+
+    <Spacing vertical="38"/>
+
+    <InteractionControllerPreference enabled="true" id="D3Controller_interactionController"/>
+
+    <Spacing vertical="38"/>
+
+    <EntryPreference enabled="true" id="controllerSettings_entry" title="{l10n: Title_ControllerSettings}"
+                     link="yvrsettings://settingsview/YVR.Settings.ControllerSettingsView"/>
+</View>

@@ -1,0 +1,27 @@
+<View>
+    <DropdownPreference enabled="true" id="vstAntiFlicker_dropdown" title="{l10n: Title_VSTAntiFlickerMode}"
+                        desc="{l10n: Desc_VSTAntiFlickerMode}">
+        <Option title="{l10n:Text_Off}"/>
+        <Option title="50Hz"/>
+        <Option title="60Hz"/>
+    </DropdownPreference>
+
+    <Spacing vertical="60"/>
+
+    <RadioButtonGroupPreference enabled="true" id="vstQuality_radioButtonGroup" title="{l10n: Title_VSTQuality}">
+        <TailRadioButton enabled="true" title="{l10n: Title_PriorityLowLatencyMode}"
+                         desc="{l10n: Desc_PriorityLowLatencyMode}"/>
+        <TailRadioButton enabled="true" title="{l10n: Title_PriorityQualityMode}"
+                         desc="{l10n: Desc_PriorityQualityMode}"/>
+    </RadioButtonGroupPreference>
+
+    <Spacing vertical="60"/>
+
+    <RadioButtonGroupPreference enabled="true" id="vstDistortion_radioButtonGroup" title="{l10n: Title_VSTDistortion}">
+        <TailRadioButton enabled="true" title="{l10n: Title_PriorityNormalMode}"
+                         desc="{l10n: Desc_PriorityStyleMode}"/>
+        <TailRadioButton enabled="true" title="{l10n: Title_PriorityDepthMode}"
+                         desc="{l10n: Desc_PriorityDepthModeDeactivated}"
+                         component="YVR.Settings.PriorityDepthModeRadioButtonAdapter"/>
+    </RadioButtonGroupPreference>
+</View>

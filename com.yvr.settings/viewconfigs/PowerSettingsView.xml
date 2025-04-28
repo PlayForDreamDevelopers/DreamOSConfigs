@@ -1,0 +1,12 @@
+<View>
+    <SettingsItemBox enabled="true" id="pow_box">
+        <EntryPreference enabled="false" id="performanceStrategy_entry" title="{l10n: Title_PerformanceStrategy}"
+                         link="yvrsettings://settingsview/YVR.Settings.PerformanceStrategySettingsView"/>
+        <EntryPreference enabled="true" id="autoShutdown_entry" height="124" title="{l10n: Title_AutoShutdown}"
+                         desc="{l10n: Description_AutoShutdown}"
+                         link="yvrsettings://settingsview/YVR.Settings.AutoShutdownSettingsView"/>
+        <EntryPreference enabled="true" id="autoScreenOff_entry" height="124" title="{l10n: Title_AutoScreenOff}"
+                         desc="{l10n: Description_AutoScreenOff}"
+                         link="yvrsettings://settingsview/YVR.Settings.AutoScreenOffSettingsView"/>
+    </SettingsItemBox>
+</View>

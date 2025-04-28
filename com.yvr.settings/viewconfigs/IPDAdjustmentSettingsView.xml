@@ -1,0 +1,6 @@
+<View>
+    <RadioButtonGroupPreference enabled="true" id="ipdAdjustmentMode_radioButtonGroup">
+        <TailRadioButton enabled="true" title="{l10n: Text_IPDAdjustmentAutomatic}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_IPDAdjustmentLevel}"/>
+    </RadioButtonGroupPreference>
+</View>

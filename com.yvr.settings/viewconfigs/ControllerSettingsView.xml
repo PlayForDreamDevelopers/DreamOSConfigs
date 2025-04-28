@@ -1,0 +1,16 @@
+<View>
+    <SettingsItemBox enabled="true" id="controllerVibration_box" title="{l10n: Title_ControllerVibrationSetting}">
+        <SliderPreference enabled="true" id="controllerVibration_slider" headIcon="vibrationLow" tailIcon="vibrationHigh"/>
+    </SettingsItemBox>
+
+    <Spacing vertical="38"/>
+
+    <SettingsItemBox enabled="true" id="controllerSettingsSwitch_box">
+        <SwitchPreference enabled="true" id="controllerHandModel_switch" title="{l10n: Title_ControllerHandModelSwitch}"
+                          desc="{l10n: Description_ControllerHandModelSwitch}"/>
+
+        <SwitchPreference enabled="false" id="controllerMenuHomeKeysSwapped_switch"
+                          title="{l10n: Title_ControllerMenuHomeKeysSwappedSwitch}"
+                          desc="{l10n: Description_ControllerMenuHomeKeysSwappedSwitch}"/>
+    </SettingsItemBox>
+</View>

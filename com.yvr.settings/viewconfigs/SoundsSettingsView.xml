@@ -1,0 +1,18 @@
+<View>
+    <SettingsItemBox enabled="true" id="soundsVolume_box" title="{l10n: Title_SondsControl}">
+        <SliderPreference enabled="true" id="soundsVolume_slider" headIcon="lessVolume" tailIcon="moreVolume"/>
+    </SettingsItemBox>
+
+    <Spacing vertical="38"/>
+
+    <SettingsItemBox enabled="true" id="alertSound_box" interactable="false" title="{l10n: Title_AlertSounds}">
+        <SwitchPreference enabled="true" id="pageAlertSound_switch" title="{l10n: Title_PageAlertSounds}"/>
+        <SwitchPreference enabled="true" id="keyboardAlertSound_switch" title="{l10n: Title_KeyboardAlertSounds}"/>
+    </SettingsItemBox>
+
+    <Spacing vertical="38"/>
+    
+    <SettingsItemBox enabled="true" id="soundEffect_box" title="{l10n: Text_SoundEffect}">
+        <SwitchPreference enabled="true" id="dtsSoundEffect_switch" title="{l10n: Text_DTSSoundEffect}"/>
+    </SettingsItemBox>
+</View>

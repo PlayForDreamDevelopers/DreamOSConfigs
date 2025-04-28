@@ -1,0 +1,9 @@
+<View>
+    <SwitchPreference enabled="true" id="autoGroundHeightAdjustment_switch"
+                      title="{l10n: Title_AutoGroundHeightAdjustment}" desc="{l10n: Desc_AutoGroundHeightAdjustment}"/>
+
+    <Spacing vertical="38"/>
+
+    <EntryPreference enabled="true" id="resetGroundHeight_entry" title="{l10n: Title_ResetGroundHeight}"
+                     link="yvrsettings://settingsaction/openguardian?SetGroundDistance"/>
+</View>

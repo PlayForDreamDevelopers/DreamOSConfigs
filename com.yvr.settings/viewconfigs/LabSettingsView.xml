@@ -1,0 +1,13 @@
+<View>
+    <DropdownPreference enabled="true" id="systemFrequency_dropdown" title="{l10n: Title_SystemFrequency}"
+                        component="YVR.Settings.SystemFrequencyDropdownAdapter">
+        <Option title="72Hz"/>
+        <Option title="90Hz"/>
+    </DropdownPreference>
+
+    <Spacing vertical="38"/>
+
+    <SwitchPreference enabled="true" id="Full4KRender_switch" title="{l10n: Title_Full4KRendering}"
+                      desc="{l10n: Desc_Full4KRenderingOff}" component="YVR.Settings.Full4KRenderSwitchAdapter"/>
+
+</View>

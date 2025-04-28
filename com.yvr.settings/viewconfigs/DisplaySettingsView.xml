@@ -1,0 +1,30 @@
+<View>
+    <SettingsItemBox enabled="true" id="brightness_box" title="{l10n: Title_BrightnessSettings}">
+        <SliderPreference enabled="true" id="brightness_slider" headIcon="lightLow" tailIcon="lightHigh"/>
+        <Spacing vertical="60"/>
+    </SettingsItemBox>
+
+
+    <SettingsItemBox enabled="true" id="eyeCare_box" title="{l10n: Title_DisplaySettings}">
+        <EntryPreference enabled="true" id="eveyCare_entry" title="{l10n: Title_EyeCare}"
+                         link="yvrsettings://settingsview/YVR.Settings.EyeCareSettingsView"/>
+        <EntryPreference enabled="true" id="vstSettings_entry" title="{l10n: Title_VSTSettings}"
+                         link="yvrsettings://settingsview/YVR.Settings.VSTSettingsView"/>
+        <EntryPreference enabled="true" id="displayAdvanced_entry" title="{l10n: Title_DisplayAdvanced}"
+                         link="yvrsettings://settingsview/YVR.Settings.DisplayAdvancedSettingsView"/>
+    </SettingsItemBox>
+
+    <Spacing vertical="60"/>
+
+    <SettingsItemBox enabled="true" id="renderResolution_box">
+        <EntryPreference enabled="true" id="renderResolution_entry" title="{l10n: Title_RenderResolution}"
+                         link="yvrsettings://settingsview/YVR.Settings.RenderResolutionSettingsView"/>
+    </SettingsItemBox>
+
+    <Spacing vertical="60"/>
+
+    <EntryPreference enabled="true" id="opticalInserts_entry" title="{l10n: Title_OpticalInserts}"
+                     link="yvrsettings://settingsview/YVR.Settings.OpticalInsertsSettingsView"/>
+</View>
+        <!--<EntryPreference enabled="true" id="displayFrequency_entry" title="{l10n: Title_RefreshRate}"-->
+        <!--                 link="yvrsettings://settingsview/YVR.Settings.DisplayFrequencySettingsView"/>-->

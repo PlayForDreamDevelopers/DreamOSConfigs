@@ -1,0 +1,42 @@
+<View>
+    <ResolutionRadioButtonGroupPreference enabled="true" id="resolution_radioButtonGroup"
+                                          title="{l10n: Title_Resolution}">
+        <LiveImageRadioButton enabled="true" title="{l10n: Title_Resolution4K}" image="Resolution4k"
+                              live="Resolution4kVideo"/>
+        <ImageRadioButton enabled="true" title="{l10n: Title_Resolution3K}" image="Resolution3k"/>
+    </ResolutionRadioButtonGroupPreference>
+
+    <Spacing vertical="60"/>
+
+    <RadioButtonGroupPreference enabled="true" id="renderMode_radioButtonGroup" title="{l10n: Title_RenderMode}">
+        <TailRadioButton enabled="true" title="{l10n: Title_FoveatedRenderMode}"
+                         component="YVR.Settings.FullRenderModeRadioButtonInteractionAdapter"/>
+        <TailRadioButton enabled="true" title="{l10n: Title_CenterFoveatedRenderMode}"
+                         component="YVR.Settings.FullRenderModeRadioButtonInteractionAdapter"/>
+        <TailRadioButton enabled="true" title="{l10n: Title_FullRenderMode}"
+                         component="YVR.Settings.FullRenderRadioButtonAdapter"/>
+    </RadioButtonGroupPreference>
+
+    <RadioButtonGroupPreference enabled="false" id="full3kRenderMode_radioButtonGroup" title="{l10n: Title_RenderMode}">
+        <TailRadioButton enabled="true" title="{l10n: Title_FullRenderMode}"/>
+    </RadioButtonGroupPreference>
+
+    <Spacing vertical="60"/>
+
+    <RadioButtonGroupPreference enabled="true" id="colorMode_radioButtonGroup" title="{l10n: Title_ColorMode}">
+        <TailRadioButton enabled="true" title="{l10n: Title_BalancedColorMode}" desc="{l10n: Desc_BalancedColorMode}"/>
+        <TailRadioButton enabled="true" title="{l10n: Title_AccurateColorMode}"
+                         desc="{l10n: Desc_AccurateColorModeActivated}"
+                         component="YVR.Settings.AccurateColorRadioButtonAdapter"/>
+    </RadioButtonGroupPreference>
+
+    <Spacing vertical="60"/>
+
+    <SettingsItemBox enabled="true" id="dispersionCalibration_box">
+        <SwitchPreference enabled="true" id="dispersionCalibration_switch" title="{l10n: Title_DispersionCalibration}"/>
+        <EntryPreference enabled="true" id="caCalibration_entry" title="{l10n: Title_CACalibrationEntry}"
+                         link="yvrsettings://settingsaction/openWidget?{&quot;pkg&quot;:&quot;com.yvr.cacalibration&quot;}"/>
+    </SettingsItemBox>
+
+
+</View>

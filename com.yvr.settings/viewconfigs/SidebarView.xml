@@ -1,0 +1,32 @@
+<View>
+    <AccountSidebarTab id="account_tab" title="{l10n: Title_NotLogged}" view="YVR.Settings.AccountSettingsView"/>
+    <Spacing vertical="44"/>
+    <SidebarTab id="wifi_tab" icon="SidebarTabIconWifi" title="{l10n: Title_WIFI}"
+                view="YVR.Settings.WifiSettingsView"/>
+    <SidebarTab id="bluetooth_tab" icon="SidebarTabIconBluetooth" title="{l10n: Title_Bluetooth}"
+                view="YVR.Settings.BluetoothSettingsView"/>
+    <Spacing vertical="44"/>
+    <SidebarTab id="general_tab" icon="SidebarTabIconGeneral" title="{l10n: Title_General}"
+                component="YVR.Settings.SystemUpdateBadgeController"
+                view="YVR.Settings.GeneralSettingsView"/>
+    <SidebarTab id="interaction_tab" icon="SidebarTabIconControl" title="{l10n: Title_Control}"
+                view="YVR.Settings.InteractionSettingsView"/>
+    <SidebarTab id="spatial_tab" icon="SidebarTabIconSpatialAwareness" title="{l10n: Title_SpatialAwareness}"
+                view="YVR.Settings.SpatialSettingsView"/>
+    <Spacing vertical="44"/>
+
+    <SidebarTab id="display_tab" icon="SidebarTabIconDisplay" title="{l10n: Title_Display}"
+                view="YVR.Settings.DisplaySettingsView"/>
+    <SidebarTab id="application_tab" icon="SidebarTabIconApp" title="{l10n: Title_AppNotification}"
+                view="YVR.Settings.AppSettingsView"/>
+    <Spacing vertical="44"/>
+    <SidebarTab id="lab_tab" icon="SidebarTabIconLab" title="{l10n: Title_Lab}"
+                view="YVR.Settings.LabSettingsView"/>
+</View>
+        <!--<SidebarTab id="share_tab" icon="SidebarTabIconShare" title="{l10n: Title_Share}"-->
+        <!--            view="YVR.Settings.ShareSettingsView"/>-->
+        <!--<SidebarTab id="personalized_tab" icon="SidebarTabIconPersonalized" title="{l10n: Title_Personalized}"-->
+        <!--            view="YVR.Settings.PersonalizedSettingsView"/>-->
+        <!--<SidebarTab id="application_tab" icon="SidebarTabIconApp" title="{l10n: Title_AppNotification}"-->
+        <!--            view="YVR.Settings.AppSettingsView"/>-->
+   

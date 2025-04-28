@@ -1,0 +1,8 @@
+<View>
+    <RadioButtonGroupPreference enabled="true" id="rotateKnobKeyAction_radioButtonGroup">
+        <TailRadioButton enabled="true" title="{l10n: Text_Immersion}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_Volume}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_ImmersionAndVolume}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_NoOperation}"/>
+    </RadioButtonGroupPreference>
+</View>

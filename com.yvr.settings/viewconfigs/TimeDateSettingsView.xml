@@ -1,0 +1,11 @@
+<View>
+    <SwitchPreference enabled="true" id="timeFormat_switch" title="{l10n: Title_24HourFormat}"/>
+
+    <Spacing vertical="38"/>
+
+    <SettingsItemBox enabled="false" id="timeZone_box">
+        <SwitchPreference enabled="true" id="autoTimeZone_switch" title="{l10n: Title_SetAutomatically}"/>
+        <EntryPreference enabled="true" id="timeZone_entry" title="{l10n: Title_TimeZone}"  titleColor="#FFFFFFF2,#FFFFFFF2" interactable="false"
+                         link="yvrsettings://settingsview/YVR.Settings.TimeZoneSettingsView"/>
+    </SettingsItemBox>
+</View>

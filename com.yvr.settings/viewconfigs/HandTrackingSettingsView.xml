@@ -1,0 +1,15 @@
+<View>
+    <SwitchPreference enabled="true" id="handTracking_switch" title="{l10n: Title_HandTrackingSwitch}"/>
+
+    <Spacing vertical="38"/>
+
+    <SettingsItemBox enabled="true" id="handTrackingSettings_box">
+        <EntryPreference enabled="false" id="handTrackingInputType_entry" title="{l10n: Title_HandTrackingInputType}"
+                         link="yvrsettings://settingsview/YVR.Settings.HandTrackingInputSettingsView"/>
+        <SwitchPreference enabled="false" id="handTrackingModel_switch" title="{l10n: Title_HandModelSwitch}"
+                          desc="{l10n: Description_HandModelSwitch}"/>
+    </SettingsItemBox>
+</View>
+
+        <!--<SwitchPreference enabled="false" id="handTrackingMenu_switch" title="{l10n: Title_HandMenuSwitch}"-->
+        <!--                  desc="{l10n: Description_HandMenuSwitch}"/>-->

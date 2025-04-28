@@ -1,0 +1,9 @@
+<View>
+    <RadioButtonGroupPreference enabled="true" id="autoScreenOff_radioButtonGroup">
+        <TailRadioButton enabled="true" title="{l10n: Text_AutoScreenOffImmediately}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_AutoScreenOff10Seconds}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_AutoScreenOff1Minute}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_AutoScreenOff10Minute}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_AutoScreenOff30Minute}"/>
+    </RadioButtonGroupPreference>
+</View>

@@ -1,0 +1,31 @@
+<View>
+    <SettingsItemBox enabled="true" id="ipdAdjustment_box">
+        <SwitchPreference enabled="false" id="ipdDetectionDummy_switch" title="{l10n: Title_IPDDetection}"
+                          desc="{l10n: Description_IPDDetection}"
+                          interactable="false"/>
+
+        <EntryPreference enabled="false" id="ipdAdjustmentModeDummy_entry" title="{l10n: Title_IPDAdjustmentMode}"
+                         info="{l10n: Text_IPDAdjustmentLevel}"
+                         interactable="false"
+                         link="yvrsettings://settingsview/YVR.Settings.IPDAdjustmentSettingsView"/>
+
+        <SwitchPreference enabled="true" id="ipdDetection_switch" title="{l10n: Title_IPDDetection}"
+                          desc="{l10n: Description_IPDDetection}"/>
+        <EntryPreference enabled="true" id="ipdAdjustmentMode_entry" title="{l10n: Title_IPDAdjustmentMode}"
+                         info="{l10n: Text_IPDAdjustmentAutomatic}"
+                         link="yvrsettings://settingsview/YVR.Settings.IPDAdjustmentSettingsView"/>
+        <EntryPreference enabled="true" id="ipdReadjustmentAuto_entry" title="{l10n: Title_IPDReadjustment}"
+                         link="yvrsettings://settingsaction/broadcast?{&quot;action&quot;:&quot;com.yvr.guardianservice.action.autoipd&quot;,&quot;json&quot;:&quot;{}&quot;}"/>
+        <EntryPreference enabled="false" id="ipdReadjustmentManual_entry" title="{l10n: Title_IPDReadjustment}"
+                         link="yvrsettings://settingsaction/broadcast?{&quot;action&quot;:&quot;com.yvr.guardianservice.action.manualipd&quot;,&quot;json&quot;:&quot;{}&quot;}"/>
+    </SettingsItemBox>
+
+    <Spacing vertical="38"/>
+
+    <DescriptionPreference enabled="true" id="ipdManualAdjustment_description"
+                           info="{l10n: Text_IPDManualAdjustment}"/>
+
+    <Spacing vertical="20"/>
+
+    <IPDSliderPreference enabled="true" id="ipdManualAdjustment_ipdSlider"/>
+</View>

@@ -1,0 +1,12 @@
+<View>
+    <SettingsItemBox enabled="true" id="stationaryGuardianArea_box" title="{l10n: Title_StationaryGuardianArea}">
+        <CenteredSliderPreference enabled="true" id="stationaryGuardianArea_slider" interactable="true"
+                                  headIcon="SmallArea"
+                                  tailIcon="LargeArea"/>
+    </SettingsItemBox>
+
+    <Spacing vertical="20"/>
+
+    <DescriptionPreference enabled="true" id="stationaryGuardianArea_description"
+                           info="{l10n: Desc_StationaryGuardianArea}"/>
+</View>

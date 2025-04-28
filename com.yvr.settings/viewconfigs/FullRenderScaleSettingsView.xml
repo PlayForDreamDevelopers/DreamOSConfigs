@@ -1,0 +1,8 @@
+<View>
+
+    <DescriptionPreference enabled="true" id="fullRenderScale_description" info="{l10n: Description_FullRenderScale}"/>
+
+    <Spacing vertical="20"/>
+
+    <SettingsItemBox enabled="true" id="fullRenderScale_box"/>
+</View>

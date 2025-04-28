@@ -1,0 +1,37 @@
+<View>
+    <SettingsItemBox enabled="true" id="systemUpate_box" title="{l10n: Title_SystemUpdate}">
+        <EntryPreference enabled="true" id="systemVersion_entry" title="{l10n: Title_SystemVersion}"/>
+        <EntryPreference enabled="true" id="systemUpdate_entry" title="{l10n: Title_SystemUpdate}"
+                         component="YVR.Settings.SystemUpdateBadgeController"
+                         link="yvrsettings://settingsview/YVR.Settings.OtaSettingsView"/>
+    </SettingsItemBox>
+
+    <Spacing vertical="60"/>
+
+    <SettingsItemBox enabled="true" id="deviceInfos_box" title="{l10n: Title_DeviceInfo}">
+        <InfoPreference enabled="true" id="deviceName_info" title="{l10n: Title_DeviceName}" info="玩出梦想 MR"/>
+        <InfoPreference enabled="true" id="deviceSN_info" title="{l10n: Title_DeviceSN}" info="123456"/>
+        <InfoPreference enabled="true" id="soc_info" title="{l10n: Title_DeviceSoc}" info="Gen2+"/>
+        <InfoPreference enabled="true" id="memory_info" title="{l10n: Title_DeviceMemory}" info="16GB"/>
+        <InfoPreference enabled="true" id="resolution_info" title="{l10n: Title_ScreenResolution}" info=""/>
+        <InfoPreference enabled="true" id="mac_info" title="{l10n: Title_MACAddress}" info="12:29"/>
+    </SettingsItemBox>
+
+    <Spacing vertical="60"/>
+
+    <SettingsItemBox enabled="true" id="devloperAndLegal_box">
+        <EntryPreference enabled="true" id="developerMode_entry" title="{l10n: Title_DeveloperMode}"
+                         link="yvrsettings://settingsview/YVR.Settings.DeveloperSettingsView"/>
+        <EntryPreference enabled="true" id="legalInfo_entry" title="{l10n: Title_LegalInfo}"
+                         link="yvrsettings://settingsview/YVR.Settings.LegalInfoSettingsView"/>
+        <EntryPreference enabled="true" id="regulationInfo_entry" title="{l10n: Title_RegulationInfo}"
+                         link="yvrsettings://settingsview/YVR.Settings.RegulationInfoSettingsView"/>
+    </SettingsItemBox>
+
+
+    <Spacing vertical="60"/>
+
+    <EntryPreference enabled="true" id="factoryReset_entry" title="{l10n: Title_FactoryReset}"
+                     titleColor="#FF3D3DF2,#FF3D3DF2"
+                     link="yvrsettings://settingsaction/FactoryReset"/>
+</View>

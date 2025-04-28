@@ -1,0 +1,8 @@
+<View>
+    <SettingsItemBox enabled="true" id="userAgreementAndPrivacyPolicy_box">
+        <EntryPreference enabled="true" id="userAgreement_entry" title="{l10n: Title_UserAgreement}"
+                         link="yvrsettings://settingsaction/openAppSheet?{&quot;pkg&quot;:&quot;com.yvr.guider&quot;,&quot;activity&quot;:&quot;com.yvr.guider.activity.activation.YvrSubUserAgreeInfoActivity&quot;,&quot;width&quot;:1200,&quot;height&quot;:960}"/>
+        <EntryPreference enabled="true" id="privacyPolicy_entry" title="{l10n: Title_PrivacyPolicy}"
+                         link="yvrsettings://settingsaction/openAppSheet?{&quot;pkg&quot;:&quot;com.yvr.guider&quot;,&quot;activity&quot;:&quot;com.yvr.guider.activity.activation.YvrSubPrivacyAgreeInfoActivity&quot;,&quot;width&quot;:1200,&quot;height&quot;:960}"/>
+    </SettingsItemBox>
+</View>

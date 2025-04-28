@@ -1,0 +1,20 @@
+<View>
+    <Spacing vertical="60"/>
+
+    <EntryPreference enabled="true" id="signOut_entry" title="{l10n: Title_AcountSignOut}" titleColor="#FF3D3DF2"
+                     link="yvrsettings://settingsaction/accountSignOut"/>
+</View>
+
+        <!--<SettingsItemBox enabled="true" id="accountDashboard_box">-->
+        <!--<EntryPreference enabled="true" id="accountInfo_entry" icon="accountInfo" title="{l10n: Title_AccountInfo}"-->
+        <!--                 link="yvrsettings://settingsview/YVR.Settings.AccountInfoSettingsView"/>-->
+        <!--<EntryPreference enabled="true" id="accountSecurity_entry" icon="accountSecurity"-->
+        <!--                 title="{l10n: Title_AccountSecurity}"-->
+        <!--                 link="yvrsettings://settingsview/YVR.Settings.AccountSecuritySettingsView"/>-->
+        <!--<EntryPreference enabled="true" id="accountPay_entry" icon="accountPay" title="{l10n: Title_AccountPay}"-->
+        <!--                 link="yvrsettings://settingsview/YVR.Settings.AccountPaySettingsView"/>-->
+        <!--<EntryPreference enabled="true" id="accountManagement_entry" icon="accountManagement"-->
+        <!--                 title="{l10n: Title_AccountManagement}"-->
+        <!--                 link="yvrsettings://settingsview/YVR.Settings.AccountManagementSettingsView"/>-->
+        <!--<Spacing vertical="60"/>-->
+        <!--</SettingsItemBox>-->

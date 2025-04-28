@@ -1,0 +1,13 @@
+<View>
+    <SwitchPreference enabled="true" id="opticalCompensation_switch" title="{l10n: Title_OpticalCompensation}"
+                      desc="{l10n: Desc_OpticalCompensation}"/>
+
+    <Spacing vertical="60"/>
+
+    <SettingsItemBox enabled="true" id="opticalInsertsInfo_box">
+        <EntryPreference enabled="false" id="opticalInsertsInfo_entry" title="{l10n: Title_OpticalInsertsInfoModify}"
+                         link="yvrsettings://settingsaction/opticalInsertsInfoModify"/>
+        <InfoPreference enabled="false" id="leftOptical_info" title="{l10n: Text_LeftEye}" info=""/>
+        <InfoPreference enabled="false" id="rightOptical_info" title="{l10n: Text_RightEye}" info=""/>
+    </SettingsItemBox>
+</View>

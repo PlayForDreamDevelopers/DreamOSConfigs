@@ -1,0 +1,14 @@
+<View>
+    <Spacing vertical="20"/>
+
+    <DescriptionPreference enabled="true" id="displayFreqauencyDiagram_description"
+                           info="{l10n: Description_RefreshRate}"/>
+
+    <Spacing vertical="38"/>
+
+    <RadioButtonGroupPreference enabled="true" id="displayRefreshMode__radioButtonGroup"
+                                title="{l10n: Title_RefreshMode}">
+        <CheckRadioButton enabled="true" title="{l10n: Title_StandardMode}" detail="72 Hz"/>
+        <CheckRadioButton enabled="true" title="{l10n: Title_SmartMode}" detail="90 Hz"/>
+    </RadioButtonGroupPreference>
+</View>

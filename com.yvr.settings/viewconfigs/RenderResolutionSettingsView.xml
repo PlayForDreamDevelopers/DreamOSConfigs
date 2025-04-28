@@ -1,0 +1,8 @@
+<View>
+    <SettingsItemBox enabled="true" id="renderModeScale_box">
+        <EntryPreference enabled="true" id="fullRenderScale_entry" title="{l10n: Title_FullRenderScale}"
+                         link="yvrsettings://settingsview/YVR.Settings.FullRenderScaleSettingsView"/>
+        <EntryPreference enabled="true" id="foveatedRenderScale_entry" title="{l10n: Title_FoveatedRenderScale}"
+                         link="yvrsettings://settingsview/YVR.Settings.FoveatedRenderScaleSettingsView"/>
+    </SettingsItemBox>
+</View>

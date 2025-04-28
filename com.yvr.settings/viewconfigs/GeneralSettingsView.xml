@@ -1,0 +1,35 @@
+<View>
+    <SettingsItemBox enabled="true" id="timeDate_box" title="{l10n: Title_TimeDateLanguageSettings}">
+        <EntryPreference enabled="true" id="timeDate_entry" title="{l10n: Title_TimeDate}"
+                         link="yvrsettings://settingsview/YVR.Settings.TimeDateSettingsView"/>
+        <EntryPreference enabled="true" id="language_entry" title="{l10n: Title_Language}"
+                         link="yvrsettings://settingsview/YVR.Settings.LanguageSettingsView"/>
+        <Spacing vertical="60"/>
+    </SettingsItemBox>
+
+    <SettingsItemBox enabled="true" id="soundVibration_box" title="{l10n: Title_SoundsVibrationSettings}">
+        <EntryPreference enabled="true" id="mic_entry" title="{l10n: Title_Microphone}"
+                         link="yvrsettings://settingsview/YVR.Settings.MicrophoneSettingsView"/>
+        <EntryPreference enabled="true" id="sounds_entry" title="{l10n: Title_Sounds}"
+                         link="yvrsettings://settingsview/YVR.Settings.SoundsSettingsView"/>
+        <EntryPreference enabled="true" id="vibration_entry" title="{l10n: Title_Vibration}"
+                         link="yvrsettings://settingsview/YVR.Settings.VibrationSettingsView"/>
+        <Spacing vertical="60"/>
+    </SettingsItemBox>
+
+    <SettingsItemBox enabled="true" id="deviceManagement_box" title="{l10n: Title_DeviceManagementSettings}">
+        <EntryPreference enabled="true" id="storageSpace_entry" title="{l10n: Title_StorageSpace}"
+                         link="yvrsettings://settingsview/YVR.Settings.StorageSpaceSettingsView"/>
+        <EntryPreference enabled="true" id="power_entry" title="{l10n: Title_Power}"
+                         link="yvrsettings://settingsview/YVR.Settings.PowerSettingsView"/>
+        <EntryPreference enabled="true" id="feedback_entry" title="{l10n: Title_Feedback}"
+                         link="yvrsettings://settingsaction/openApp?{&quot;pkg&quot;:&quot;com.yvr.feedback&quot;,&quot;activity&quot;:&quot;com.yvr.feedback.MainActivity&quot;}"/>
+        <EntryPreference enabled="true" id="about_entry" title="{l10n: Title_About}"
+                         link="yvrsettings://settingsview/YVR.Settings.AboutSettingsView"
+                         component="YVR.Settings.SystemUpdateBadgeController"/>
+        <Spacing vertical="60"/>
+    </SettingsItemBox>
+
+    <EntryPreference enabled="true" id="powerOff_entry" title="{l10n: Title_PowerOff}" titleColor="#FF3D3DF2"
+                     link="yvrsettings://settingsaction/PowerOff"/>
+</View>

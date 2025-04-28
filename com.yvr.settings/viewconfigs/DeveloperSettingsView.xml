@@ -1,0 +1,10 @@
+<View>
+    <SwitchPreference enabled="true" id="usbDebugging_switch" title="{l10n: Title_USBDebugging}"
+                      desc="{l10n: Description_USBDebugging}"/>
+    <Spacing vertical="60"/>
+    <SwitchPreference enabled="true" id="guardianSystem_switch" title="{l10n: Title_GuardianSystemSwitch}"
+                      desc="{l10n: Desc_GuardianSystemSwitch}"/>
+    <Spacing vertical="60"/>
+    <SwitchPreference enabled="true" id="appPreStartupValidation_switch" title="{l10n: Title_AppPreStartupValidation}"
+                      desc="{l10n: Desc_AppPreStartupValidation}"/>
+</View>

@@ -1,0 +1,22 @@
+<View>
+
+    <SettingsItemBox enabled="true" id="powerKeyActionOptionEntry_box" title="{l10n: Text_PowerKeyActionCustom}">
+        <EntryPreference enabled="true" id="singleClickPowerKeyAction_entry" title="{l10n: Text_SingleClick}"
+                         link="yvrsettings://settingsview/YVR.Settings.SingleClickPowerKeyActionSettingsView"/>
+        <EntryPreference enabled="true" id="doubleClickPowerKeyAction_entry" title="{l10n: Text_DoubleClick}"
+                         link="yvrsettings://settingsview/YVR.Settings.DoubleClickPowerKeyActionSettingsView"/>
+    </SettingsItemBox>
+
+    <Spacing vertical="38"/>
+
+    <SettingsItemBox enabled="true" id="knobKeyActionOptionEntry_box" title="{l10n: Text_KnobActionCustom}">
+        <EntryPreference enabled="true" id="rotateKnobKeyAction_entry" title="{l10n: Text_Rotate}"
+                         link="yvrsettings://settingsview/YVR.Settings.RotateKnobKeyActionSettingsView"/>
+        <EntryPreference enabled="true" id="singleClickKnobAction_entry" title="{l10n: Text_SingleClick}"
+                         link="yvrsettings://settingsview/YVR.Settings.SingleClickKnobKeyActionSettingsView"/>
+        <EntryPreference enabled="true" id="doubleClickKnobKeyAction_entry" title="{l10n: Text_DoubleClick}"
+                         link="yvrsettings://settingsview/YVR.Settings.DoubleClickKnobKeyActionSettingsView"/>
+        <EntryPreference enabled="true" id="longPressKnobKeyAction_entry" title="{l10n: Text_LongPress}"
+                         link="yvrsettings://settingsview/YVR.Settings.LongPressKnobKeyActionSettingsView"/>
+    </SettingsItemBox>
+</View>

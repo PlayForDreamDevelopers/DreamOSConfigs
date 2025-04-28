@@ -1,0 +1,13 @@
+<View>
+    <SettingsItemBox enabled="true" id="vibrationFeedback_box" interactable="false" title="{l10n: Title_VibrationFeedback}">
+        <SwitchPreference enabled="true" id="systemPageVibrationFeedback_switch"
+                          title="{l10n: Title_PageVibrationFeedback}"/>
+        <SwitchPreference enabled="true" id="keyboardVibrationFeedback_switch"
+                          title="{l10n: Title_KeyboardVibrationFeedback}"/>
+    </SettingsItemBox>
+
+    <Spacing vertical="38"/>
+
+    <EntryPreference enabled="true" id="vibrationIntensity_entry" title="{l10n: Title_VibrationIntensity}"
+                     link="yvrsettings://settingsview/YVR.Settings.ControllerSettingsView"/>
+</View>

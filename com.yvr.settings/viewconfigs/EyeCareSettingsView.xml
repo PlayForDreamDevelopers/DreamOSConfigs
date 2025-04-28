@@ -1,0 +1,14 @@
+<View>
+    <SwitchPreference enabled="true" id="eyeCare_switch" title="{l10n: Title_EyeCare}"/>
+
+    <Spacing vertical="20"/>
+
+    <DescriptionPreference enabled="true" id="eyeCareSwitch_description"
+                           info="{l10n: Description_EyeCareSwitch}"/>
+
+    <Spacing vertical="38"/>
+
+    <SettingsItemBox enabled="true" id="colorTemperature_box" title="{l10n: Title_ColorTemperature}">
+        <SliderPreference enabled="false" id="colorTemperature_slider" interactable="true" headIcon="lessWarm" tailIcon="moreWarm"/>
+    </SettingsItemBox>
+</View>

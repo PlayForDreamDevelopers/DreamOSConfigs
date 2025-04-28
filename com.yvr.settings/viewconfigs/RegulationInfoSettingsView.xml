@@ -1,0 +1,5 @@
+<View>
+    <ChinaRegulationInfoFragment/>
+    <Spacing vertical="129"/>
+    <USRegulationInfoFragment/>
+</View>

@@ -1,0 +1,7 @@
+<View>
+    <RadioButtonGroupPreference enabled="true" id="handTrackingInputMode_radioButtonGroup">
+        <TailRadioButton enabled="true" title="{l10n: Text_HandTrackingInputBoth}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_HandTrackingInputRight}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_HandTrackingInputLeft}"/>
+    </RadioButtonGroupPreference>
+</View>

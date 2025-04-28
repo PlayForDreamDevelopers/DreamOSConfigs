@@ -1,0 +1,7 @@
+<View>
+    <RadioButtonGroupPreference enabled="true" id="singleClickPowerKeyAction_radioButtonGroup">
+        <TailRadioButton enabled="true" title="{l10n: Text_OpenCamera}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_ScreenOff}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_NoOperation}"/>
+    </RadioButtonGroupPreference>
+</View>

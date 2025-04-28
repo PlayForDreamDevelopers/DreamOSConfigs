@@ -1,0 +1,7 @@
+<View>
+    <RadioButtonGroupPreference enabled="true" id="doubleClickKnobKeyAction_radioButtonGroup">
+        <TailRadioButton enabled="true" title="{l10n: Text_ControlBar}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_SeeThroughMode}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_NoOperation}"/>
+    </RadioButtonGroupPreference>
+</View>

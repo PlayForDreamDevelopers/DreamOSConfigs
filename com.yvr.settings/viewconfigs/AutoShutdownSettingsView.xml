@@ -1,0 +1,8 @@
+<View>
+    <RadioButtonGroupPreference enabled="true" id="autoShutdown_radioButtonGroup">
+        <TailRadioButton enabled="true" title="{l10n: Text_AutoShutdown4Hours}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_AutoShutdown6Hours}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_AutoShutdown12Hours}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_AutoShutdown24Hours}"/>
+    </RadioButtonGroupPreference>
+</View>

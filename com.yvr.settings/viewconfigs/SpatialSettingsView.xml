@@ -1,0 +1,14 @@
+<View>
+    <SwitchPreference enabled="true" id="systemTracking_switch" title="{l10n: Title_SystemTracking}"
+                      desc="{l10n: Desc_SystemTracking}"/>
+
+    <Spacing vertical="38"/>
+
+    <SettingsItemBox enabled="true" id="guardianSettings_box" title="{l10n: Text_GuardianSettings}">
+        <EntryPreference enabled="true" id="guardianArea_entry" title="{l10n: Title_GuardianArea}"
+                         desc="{l10n: Desc_GuardianArea}"
+                         link="yvrsettings://settingsview/YVR.Settings.GuardianAreaSettingsView"/>
+        <EntryPreference enabled="true" id="groundHeight_entry" title="{l10n: Title_GroundHeight}"
+                         link="yvrsettings://settingsview/YVR.Settings.GroundHeightSettingsView"/>
+    </SettingsItemBox>
+</View>

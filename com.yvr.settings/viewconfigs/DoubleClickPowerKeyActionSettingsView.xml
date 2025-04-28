@@ -1,0 +1,7 @@
+<View>
+    <RadioButtonGroupPreference enabled="true" id="doubleClickPowerKeyAction_radioButtonGroup">
+        <TailRadioButton enabled="true" title="{l10n: Text_NoOperation}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_ScreenOff}"/>
+        <TailRadioButton enabled="true" title="{l10n: Title_IPDAdjustment}"/>
+    </RadioButtonGroupPreference>
+</View>

@@ -1,0 +1,7 @@
+<View>
+    <RadioButtonGroupPreference enabled="true" id="language_radioButtonGroup" title="{l10n: Title_Language}">
+        <TailRadioButton enabled="true" title="中文"/>
+        <TailRadioButton enabled="true" title="English"/>
+        <TailRadioButton enabled="true" title="日本語"/>
+    </RadioButtonGroupPreference>
+</View>

@@ -1,0 +1,6 @@
+<View>
+    <RadioButtonGroupPreference enabled="true" id="longPressKnobKeyAction_radioButtonGroup">
+        <TailRadioButton enabled="true" title="{l10n: Text_Recenter}"/>
+        <TailRadioButton enabled="true" title="{l10n: Text_NoOperation}"/>
+    </RadioButtonGroupPreference>
+</View>
