@@ -7,7 +7,7 @@
     "vHeight": 3840,
     "vDPI": 480,
     "resizeScale": 0.5,
-    "name": "BrowserStartupParams",
+    "name": "Global",
     "hideFlags": 0
   },
   "overrideParamsList": [
@@ -22,7 +22,7 @@
         "vHeight": 2496,
         "vDPI": 312,
         "resizeScale": 0.76,
-        "name": "updown",
+        "name": "douyin",
         "hideFlags": 0
       }
     }
