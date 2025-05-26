@@ -1,0 +1,33 @@
+{
+  "globalOverrideParams": {
+    "hWidth": 3840,
+    "hHeight": 2160,
+    "hDPI": 480,
+    "vWidth": 2160,
+    "vHeight": 3840,
+    "vDPI": 480,
+    "resizeScale": 0.5,
+    "name": "BrowserStartupParams",
+    "hideFlags": 0
+  },
+  "overrideParamsList": [
+    {
+      "package": "com.ss.android.ugc.aweme.lite",
+      "activity": "",
+      "startupParams": {
+        "hWidth": 2496,
+        "hHeight": 1404,
+        "hDPI": 312,
+        "vWidth":1404 ,
+        "vHeight": 2496,
+        "vDPI": 312,
+        "resizeScale": 0.76,
+        "name": "updown",
+        "hideFlags": 0
+      }
+    }
+  ],
+  "configurable": true,
+  "name": "StartupOverrideParamsCollection",
+  "hideFlags": 0
+}
